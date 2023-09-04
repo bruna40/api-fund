@@ -2,7 +2,7 @@
 
 ## Sobre o projeto
 
-API desenvolvida para o curso de fundamentos de NodeJS da Rocketseat.
+API desenvolvida no curso de fundamentos de NodeJS da Rocketseat. Para aprender os fundamentos de Nodejs
 
 ## Tecnologias utilizadas
 
