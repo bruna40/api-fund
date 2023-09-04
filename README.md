@@ -17,6 +17,7 @@ Para rodar o projeto, basta executar o comando abaixo:
    npm install
    npm run dev
 ```
+Requisições podem ser feitas através do endereço http://localhost:3333
 
 ### Metodos HTTP
 
