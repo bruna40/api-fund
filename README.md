@@ -32,7 +32,6 @@ Requisições podem ser feitas através do endereço http://localhost:3333
 - POST /users:
 ```
 {
-    "id": 1,
     "name": "John Doe",
     "email": "johndoe@email.com"
 }
@@ -43,12 +42,12 @@ Requisições podem ser feitas através do endereço http://localhost:3333
 ```
 [
     {
-        "id": 1,
+        "id": "35a97cb8-54eb-4a21-9e68-0eb53e502eb8",
         "name": "John Doe",
         "email": "johndoe@email.com
     },
     {
-        "id": 2,
+        "id": "1caa1087-4d10-4605-aa15-bdc2812d7f58",
         "name": "Serena",
         "email": "serena@email.com"
     }
