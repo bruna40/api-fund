@@ -19,6 +19,8 @@ Para rodar o projeto, basta executar o comando abaixo:
 ```
 Requisições podem ser feitas através do endereço http://localhost:3333
 
+Será criado um arquivo chamado db.json, que será o banco de dados da aplicação.
+
 ### Metodos HTTP
 
 - GET: Buscar uma informação do back-end
@@ -44,7 +46,7 @@ Requisições podem ser feitas através do endereço http://localhost:3333
     {
         "id": "35a97cb8-54eb-4a21-9e68-0eb53e502eb8",
         "name": "John Doe",
-        "email": "johndoe@email.com
+        "email": "johndoe@email.com"
     },
     {
         "id": "1caa1087-4d10-4605-aa15-bdc2812d7f58",
@@ -52,4 +54,23 @@ Requisições podem ser feitas através do endereço http://localhost:3333
         "email": "serena@email.com"
     }
 ]
+```
+
+- DELETE /users/:id
+
+```
+{
+    status: 204
+}
+
+```
+
+- PUT /users/:id
+
+```
+{
+    "name": "John",
+    "email": "johndoe@email.com"
+}
+    
 ```
